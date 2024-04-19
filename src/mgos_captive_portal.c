@@ -366,7 +366,6 @@ bool mgos_captive_portal_start(void){
     // captive.apple.com - DNS request for Mac OSX
     
     // Known HTTP GET requests to check for Captive Portal
-    mgos_register_http_endpoint("/connectivitycheck.android.com", serve_redirect_ev_handler, NULL);
     mgos_register_http_endpoint("/mobile/status.php", serve_redirect_ev_handler, NULL);         // Android 8.0 (Samsung s9+)
     mgos_register_http_endpoint("/generate_204", serve_redirect_ev_handler, NULL);              // Android
     mgos_register_http_endpoint("/gen_204", redirect_ev_handler, NULL);                   // Android 9.0
