@@ -2,6 +2,7 @@ lib
 .DS_Store
 node_modules
 package-lock.json
+captive-portal.code-workspace
 # fs/wifi_portal.css
 # fs/wifi_portal.html
 # fs/wifi_portal.js
